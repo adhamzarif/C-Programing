@@ -1,1 +1,21 @@
+//X to the power Y Using user defined Function
+#include <stdio.h>
+void calculatePower(double base, double power)
+{
+    int i;
+    double result = 1;
+    for(i = 1;i <= power;i++)
+    {
+        result = result * base;
+    }
+    printf("Result is: %.4lf",result);
 
+}
+int main()
+{
+    double base,power;
+    printf("Enter base & power: ");
+    scanf("%lf %lf",&base, &power);
+    calculatePower(base,power);
+    return 0;
+}
