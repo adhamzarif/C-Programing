@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int num1 = 10,num2 = 200,num3 = 100;
+    int *ptr1,*ptr2,*ptr3;
+    ptr1 = &num1;
+    ptr2 = &num2;
+    ptr3 = &num3;
+    if(*ptr1 > *ptr2 && *ptr1 > *ptr3)
+    {
+        printf("Max num is: %d\n",*ptr1);
+    } 
+    else if(*ptr2 > *ptr1 && *ptr2 > *ptr3)
+    {
+        printf("Max num is: %d\n",*ptr2);
+    }
+    else
+    {
+        printf("Max num is: %d\n",*ptr3);
+    }
+
+    return 0;
+}
