@@ -51,5 +51,3 @@ C offers three main types of loops:
    ```
 
 Choosing the right loop depends on your specific needs. If you know the number of iterations in advance, a for loop is generally more efficient. While and do-while loops are better suited for situations where the loop's continuation depends on a dynamic condition.
-
-For a deeper understanding of loops in C, you can refer to online resources like [https://www.programiz.com/c-programming/c-for-loop](https://www.programiz.com/c-programming/c-for-loop) or [https://www.w3schools.com/c/c_while_loop.php](https://www.w3schools.com/c/c_while_loop.php).
